@@ -15,10 +15,10 @@
     <!-- header -->
   <nav class="container relative max-w-full shadow-sm" >
     <!-- flex -->
-    <div class="flex justify-between items-center bg-[#0D324D] w-full">
+    <div class="flex justify-between items-center bg-[#FFFFFF] w-full">
         <!-- logo -->
         <div class="ml-14">
-          <a href="/"><img class="h-20 w-40" src="logo.png" alt="logo"></a>
+          <a href="/"><img class="h-20 w-30" src="logo.png" alt="logo"></a>
         </div>
         <!-- menu -->
         {{-- <div class="text-white hidden space-x-6 md:flex ml-80">
