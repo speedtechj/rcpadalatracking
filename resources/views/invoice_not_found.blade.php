@@ -18,16 +18,16 @@
     <div class="flex justify-between items-center bg-[#0D324D] w-full">
         <!-- logo -->
         <div class="ml-14">
-          <a href="/"><img class="h-20 w-40" src="image003.png" alt="logo"></a>
+          <a href="/"><img class="h-20 w-40" src="logo.png" alt="logo"></a>
         </div>
         <!-- menu -->
-        <div class="text-white hidden space-x-6 md:flex ml-80">
+        {{-- <div class="text-white hidden space-x-6 md:flex ml-80">
           <a href="https://forexcargodeals.com/calgary/book-online" class="hover:border-b-2 hover:border-[#ffdd02] duration-75"> Send Goods</a>
           <a href="/" class=" hover:border-b-2 hover:border-[#ffdd02] duration-75">Track Edmonton</a>
      
-        </div>
+        </div> --}}
         <!-- button -->
-        <a
+        {{-- <a
           href="https://www.google.com/maps/dir/51.1959881,-113.9975539/forex+cargo+calgary/@51.1296835,-114.1513443,12.75z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x5371706a155ad99d:0xec2e45f16fabcf8b!2m2!1d-114.0607559!2d51.0183743?entry=ttu"
           class=" hidden text-white p-3 px-6 pt-2 rounded-full border-solid border-[#ffdd02] border-2 baseline mr-32 hover:text-[#355691] duration-300 md:block"
           >Direction</a>
@@ -40,10 +40,10 @@
           <span class="hamburger-middle"></span>
           <span class="hamburger-bottom"></span>
         </button>
-      </div>
+      </div> --}}
 
       <!-- Mobile Menu -->
-      <div class="md:hidden">
+      {{-- <div class="md:hidden">
         <div
           id="menu"
           class=" text-[#355691] absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
@@ -53,7 +53,7 @@
          
         </div>
       </div>
-    </div>
+    </div> --}}
 </nav>
 
 <!-- Transaction status -->
@@ -61,7 +61,7 @@
 
     <div class=" container md:w-1/2 md:ml-96 mx-auto ml-6">
         <div class="flex flex-col text-left mt-16 space-y-4 ">
-             <h1 class="text-4xl ">Track a transfer</h1>
+             <h1 class="text-4xl ">Track Your Box</h1>
              <p class="text-xl font-bold ">Your Invoice Number Does Not Found<i class="fa-solid fa-ban ml-4" style="color: #FF0000;"></i></p>
              <p class="text-2xl font-black ">{{ $invoice1 }}</p>
         </div>
