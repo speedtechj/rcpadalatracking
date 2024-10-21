@@ -16,12 +16,12 @@
     <!-- header -->
   <nav class="container relative max-w-full shadow-sm" >
     <!-- flex -->
-    <div class="flex justify-between items-center bg-[#0D324D] w-full">
+    <div class="flex justify-between items-center bg-[#FFFFFF] w-full">
         <!-- logo -->
         <div class="ml-14">
-            <a href="/"><img class="h-20 w-40" src="image003.png" alt="logo"></a>
+            <a href="/"><img class="h-20 w-30" src="logo.png" alt="logo"></a>
         </div>
-        <!-- menu -->
+        {{-- <!-- menu -->
         <div class="text-white hidden space-x-6 md:flex ml-80">
           <a href="https://forexcargodeals.com/calgary/book-online" class="hover:border-b-2 hover:border-[#ffdd02] duration-75"> Send Goods</a>
           <a href="/" class=" hover:border-b-2 hover:border-[#ffdd02] duration-75">Track Edmonton</a>
@@ -41,10 +41,10 @@
           <span class="hamburger-middle"></span>
           <span class="hamburger-bottom"></span>
         </button>
-      </div>
+      </div> --}}
 
       <!-- Mobile Menu -->
-      <div class="md:hidden">
+      {{-- <div class="md:hidden">
         <div
           id="menu"
           class=" text-[#355691] absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
@@ -54,15 +54,17 @@
          
         </div>
       </div>
-    </div>
+    </div> --}}
 </nav>
 <!-- hero section -->
 <section id="hero">
 
     <div class=" container md:w-1/2 md:ml-96 ml-10 mx-auto">
         <div class="flex flex-col text-left mt-16 space-y-6 ">
-             <h1 class="text-4xl ">Track a transfer</h1>
-             <p class="text-lg ">To track your shipment, Enter the invoice number below.</p>
+             <h1 class="text-4xl ">Track Your Box</h1>
+             <p class="text-lg ">Enter the invoice number below. <br><span class="text-sm">(Please 
+              Do not Include AO exmaple - AO-1234 please encode 1234 only)</span>
+             </p>
         <form method="get" action="{{ url('show') }}">
         {{ csrf_field() }}
         <div class="w-72">
